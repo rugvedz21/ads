@@ -63,6 +63,5 @@ void dijkstra(int start) {
 
 int main() {
     loadGraphFromFile("supply.txt");
-    dijkstra(0); // Start from supplier (node 0)
-    return 0;
-}
+    dijkstra(0); 
+    return 0;
